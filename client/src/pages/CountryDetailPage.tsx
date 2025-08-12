@@ -56,7 +56,7 @@ const CountryDetailPage: React.FC = () => {
 
       <div className="bg-white rounded-lg shadow-sm p-6">
         <div className="flex flex-col md:flex-row gap-8">
-          {/* Flag image with 2:3 aspect ratio */}
+         
           <div className="flex-shrink-0 w-full md:w-1/3 flex justify-center">
             <img
               src={country.flags.png}
@@ -65,7 +65,7 @@ const CountryDetailPage: React.FC = () => {
             />
           </div>
 
-          {/* Country details */}
+       
           <div className="flex-grow">
             <h1 className="text-3xl font-bold text-gray-800 mb-4">
               {country.name.official}
